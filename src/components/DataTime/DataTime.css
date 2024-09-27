@@ -1,0 +1,19 @@
+h1 {
+    margin: 0;
+    font-family: 'Anurati';
+    font-size: 80px;
+    font-weight: 400;
+    transform: scaleY(1.05);
+    letter-spacing: 17px;
+    color: azure;
+    padding-left: 20px;
+}
+
+p {
+    font-size: 1.3rem;
+    font-family: Quicksand;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transform: scaleY(1.03);
+    color: azure;
+}

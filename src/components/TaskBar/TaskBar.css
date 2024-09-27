@@ -1,0 +1,27 @@
+
+.taskbar {
+    position: fixed;    
+    right: 20px;           
+    top: 0;               
+    width: 80px;            
+    height: 100vh;          
+    background-color: transparent;
+    display: flex;       
+    flex-direction: column; 
+    align-items: center;   
+    padding-top: 10px; 
+    gap: 15px;  
+    justify-content: center;
+  }
+  
+  .desktop-icons {
+    width: 50px;           
+    height: 50px;
+    cursor: pointer;       
+  }
+  
+  .desktop-icons:hover {
+    transform: scale(1.1); 
+    transition: 0.3ms;
+  }
+  

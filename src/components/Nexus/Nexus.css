@@ -1,0 +1,20 @@
+.nexus{
+    justify-content: center;
+    padding-top: 4px;
+}
+
+.nexus a{
+    font-style: none;
+    color: rgb(252, 240, 240);
+    background-color: transparent;
+}
+
+.nexus p{
+    font-size: 13px;
+    font-weight: 400;
+    font-family: inter;
+}
+
+.nexus p:hover{
+    transform: scale(1.05);
+}
