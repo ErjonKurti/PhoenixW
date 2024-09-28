@@ -4,11 +4,13 @@ import './Nexus.css'
 
 const Nexus = () => {
   return (
-    <div className='nexus'>
-      <a href={assets.AssetsW} download>
-        <p>-Download Assets-</p>
-      </a>
-    </div>
+    <>
+      <div className='nexus'>
+        <a href={assets.AssetsW} download>
+          <p>-Download Assets-</p>
+        </a>
+      </div>
+    </>
   )
 }
 
