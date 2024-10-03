@@ -1,0 +1,255 @@
+.ph-container {
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 80px;
+}
+
+
+/* iPhone 15 Pro Max Container */
+.iphone-container {
+    position: relative;
+    width: 350px;
+    height: 700px;
+    background-color: #000;
+    border-radius: 55px;
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    overflow: hidden;
+    margin-top: 40px;
+    margin-left: 200px;
+
+}
+
+/* iPhone Screen */
+.iphone-screen {
+    width: 350px;
+    height: 660px;
+    background-color: #000;
+    border-radius: 45px;
+    overflow: hidden;
+    position: relative;
+    justify-content: center;
+}
+
+/* Video Wallpaper */
+.wallpaper-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: inherit;
+}
+
+/* Lock Screen */
+.lock-screen {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+    /* Display lock screen content above video */
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family: 'San Francisco', Arial, sans-serif;
+    background: rgba(0, 0, 0, 0.3);
+    /* Slight overlay for readability */
+}
+
+/* Time and Date on Lock Screen */
+.lock-time {
+    font-size: 4rem;
+    /* Large clock text */
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+
+.lock-date {
+    font-size: 1.5rem;
+    /* Smaller date text */
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+/* iPhone Dynamic Island (notch) */
+.iphone-notch {
+    position: absolute;
+    top: 42px;
+    width: 130px;
+    height: 27px;
+    background-color: #000;
+    border-radius: 15px;
+    z-index: 3;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.free-download {
+    position: relative;
+    justify-content: space-between;
+    align-self: center;
+}
+
+.free-download h2 {
+    font-family: anurati;
+    font-size: 50px;
+    color: aliceblue;
+    font-weight: 400;
+    letter-spacing: 6px;
+}
+
+.free-download p {
+    margin-top: 10px;
+    font-family: inter;
+    font-weight: 500;
+}
+
+.free-download a {
+    font-family: inter;
+    font-weight: 500;
+}
+
+.free-download button {
+    margin-top: 30px;
+    font-family: inter;
+    font-weight: 500;
+    padding: 12px 20px;
+    background-color: rgb(220, 220, 220);
+    border-radius: 8px;
+}
+
+.free-download button:hover {
+    transform: scale(1.05);
+    transition: 10ms;
+}
+
+@media (max-width: 750px) {
+
+    .ph-container {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+
+    /* iPhone 15 Pro Max Container */
+    .iphone-container {
+        position: relative;
+        width: 350px;
+        height: 700px;
+        background-color: #000;
+        border-radius: 55px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        overflow: hidden;
+        margin-top: 50px;
+        margin-left: 30px;
+        margin-right: 25px;
+
+    }
+
+    .free-download {
+        position: relative;
+        justify-content: space-between;
+        align-self: center;
+    }
+
+    .free-download h2 {
+        display: none;
+    }
+
+    .free-download p {
+        display: none;
+    }
+
+    .free-download a {
+        font-family: inter;
+        font-weight: 500;
+    }
+
+    .free-download button {
+        margin-top: 0px;
+        margin-bottom: 50px;
+        font-family: inter;
+        font-weight: 500;
+        padding: 12px 20px;
+        background-color: rgb(220, 220, 220);
+        border-radius: 8px;
+    }
+
+    .free-download button:hover {
+        transform: scale(1.05);
+        transition: 10ms;
+    }
+
+}
+
+
+
+/* @media (max-width: 650px) {
+    .ph-container {
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 20px;
+    }
+
+    .iphone-container {
+        position: relative;
+        width: 98vw;
+        height: 98vh;
+        
+        background-color: #000;
+        border-radius: 55px;
+        box-shadow: 0 20px 40px rgba(0, 0, 0, 0.2);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0px;
+        overflow: hidden;
+        margin-top: 0px;
+        margin-left: 0px;
+
+    }
+
+    .iphone-screen {
+        width: 33
+        0px;
+        height: 660px;
+        background-color: #000;
+        border-radius: 45px;
+        overflow: hidden;
+        position: relative;
+        justify-content: center;
+    }
+
+    .wallpaper-video {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: inherit;
+    }
+   
+    .iphone-notch {
+        display: none;
+    }
+
+    .free-download {
+        display: none;
+    }
+
+
+} */

@@ -53,7 +53,6 @@ import sasukeblade from './sasukeblade.mp4'
 import sasuke from './sasuke.mp4'
 import sasukelight from './sasukelight.mp4'
 import gwen from './gwen.mp4'
-import madara from './madara.mp4'
 import cozycamp from './cozycamp.mp4'
 import dabi from './dabi.mp4'
 import darknezuko from './darknezuko.mp4'
@@ -70,14 +69,81 @@ import codmw from './codmw.mp4'
 import sakura from './sakura.mp4'
 import samurai from './samurai.mp4'
 import valorant from './valorant.mp4'
-import thelastofus from './thelastofus.mp4'
 import cod from './cod.mp4'
 import logo from './logo.svg'
+import madara from './madara.mp4'
+import thelastofus from './thelastofus.mp4'
+import gothgirl from './gothgirl.mp4'
+import ghostcod from './ghostcod.mp4'
+import jettvalorant from './jettvalorant.mp4'
+import wukongb from './wukongb.mp4'
+import kratos2 from './kratos2.mp4'
+import akaliassassin from './akaliassassin.mp4'
+import ronaldo from './ronaldo.mp4'
+import messi from './messi.mp4'
+import inosuke from './inosuke.mp4'
+import snowfall from './snowfall.mp4'
+import supra2 from './supra2.mp4'
+import cyberpunknissan from './cyberpunknissan.mp4'
+import batcave from './batcave.mp4'
+import fenrirragnarok from './fenrirragnarok.mp4'
+import silentcontemplation from './silentcontemplation.mp4'
+import gokuvsbeerus from './gokuvsbeerus.mp4'
+import gokuul from './gokuul.mp4'
+import gokudb from './gokudb.mp4'
+import gothgirl_phones from './gothgirl_phones.mp4'
+import ghostcod_phones from './ghostcod_phones.mp4'
+import grimreaper_phones from './grimreaper_phones.mp4'
+import zoro_phones from './zoro_phones.mp4'
+import kakashi_phones from './kakashi_phones.mp4'
+import berserk_phones from './berserk_phones.mp4'
+import silvergoku_phones from './silvergoku_phones.mp4'
+import joker_phones from './joker_phones.mp4'
+import korra_phones from './korra_phones.mp4'
+import goku_phones from './goku_phones.mp4'
+import choso_phones from './choso_phones.mp4'
+import spiderman_phones from './spiderman_phones.mp4'
+import poku from './poku.mp4'
+import darkpoku from './darkpoku.mp4'
+
 
 export const assets = {
+    darkpoku,
+    poku,
+    supra2,
+    grimreaper_phones,
+    zoro_phones,
+    kakashi_phones,
+    snowfall,
+    cyberpunknissan,
+    batcave,
+    fenrirragnarok,
+    jettvalorant,
+    wukongb,
+    kratos2,
+    akaliassassin,
+    ronaldo,
+    messi,
+    inosuke,
+    choso_phones,
+    spiderman_phones,
+    korra_phones,
+    joker_phones,
+    silentcontemplation,
+    silvergoku_phones,
+    berserk_phones,
+    gothgirl,
+    gothgirl_phones,
+    ghostcod,
+    ghostcod_phones,
+    goku_phones,
+    gokuvsbeerus,
+    gokuul,
+    gokudb,
     logo,
     cozycamp,
-    dabi,darknezuko, 
+    dabi,
+    darknezuko, 
     darkseele, 
     eldenring, 
     eldenring2, 

@@ -63,6 +63,39 @@ import SamuraiW from './pages/SamuraiW';
 import TheLastOfUsW from './pages/TheLastOfUsW';
 import ValorantW from './pages/ValorantW';
 import Preloader from './components/Preloader/Preloader';
+import MadaraW from './pages/MadaraW';
+import GhostCodPhonesW from './pages/GhostCodPhonesW';
+import AkaliAssassinW from './pages/AkaliAssassinW';
+import BerserkPhonesW from './pages/BerserkPhonesW';
+import BatCaveW from './pages/BatCaveW';
+import ChosoPhonesW from './pages/ChosoPhonesW';
+import CyberpunkAssassinW from './pages/CyberpunkAssassinW';
+import FenrirRagnarokW from './pages/FenrirRagnarokW';
+import GhostCodW from './pages/GhostCodW';
+import GokuDbW from './pages/GokuDbW';
+import GokuUiW from './pages/GokuUiW';
+import GokuVsBeerusW from './pages/GokuVsBeerusW';
+import GothGirlW from './pages/GothGirlW';
+import GrimReaperPhonesW from './pages/GrimReaperPhonesW';
+import InosukeW from './pages/InosukeW';
+import JetValorantW from './pages/JetValorantW';
+import JokerPhonesW from './pages/JokerPhonesW';
+import KakashiPhonesW from './pages/KakashiPhonesW';
+import KorraPhonesW from './pages/KorraPhonesW';
+import RonaldoW from './pages/RonaldoW';
+import MessiW from './pages/MessiW';
+import SilentContemplationW from './pages/SilentContemplationW';
+import SilverGokuPhonesW from './pages/SilverGokuPhonesW';
+import SnowfallW from './pages/SnowfallW';
+import SpidermanPhonesW from './pages/SpidermanPhonesW';
+import Supra2W from './pages/Supra2W';
+import WukongbW from './pages/WukongbW';
+import ZoroPhonesW from './pages/ZoroPhonesW';
+import GokuPhonesW from './pages/GokuPhonesW';
+import Kratos2 from './pages/Kratos2W';
+import GothGirlPhonesW from './pages/GothGirlPhonesW';
+import PokuPhonesW from './pages/PokuPhonesW';
+import DarkPokuPhonesW from './pages/DarkPokuPhones';
 
 function App() {
 
@@ -130,6 +163,7 @@ function App() {
           <Route path='/berserk' element={<BerserkW />} />
           <Route path="boruto" element={<BorutoW />} />
           <Route path="/choso" element={<ChosoW />} />
+          <Route path="/madara" element={<MadaraW />} />
           <Route path='/cosmic-dreams' element={<CosmicDreams />} />
           <Route path='/frieza' element={<Frieza />} />
           <Route path='/goku-vegeta' element={<GokuVegetaW />} />
@@ -186,6 +220,38 @@ function App() {
           <Route path='/samurai' element={<SamuraiW />} />
           <Route path='/the-last-of-us' element={<TheLastOfUsW />} />
           <Route path='/valorant' element={<ValorantW />} />
+          <Route path='/akali-assassin' element={<AkaliAssassinW />} />
+          <Route path='/bat-cave' element={<BatCaveW />} />
+          <Route path='/berserker-phones' element={<BerserkPhonesW />} />
+          <Route path='/choso-phones' element={<ChosoPhonesW />} />
+          <Route path='/cyberpunk-nissan' element={<CyberpunkAssassinW />} />
+          <Route path="/fenrir-ragnarok" element={<FenrirRagnarokW />} />
+          <Route path="/ghost-cod-phones" element={<GhostCodPhonesW />} />
+          <Route path='/ghost-cod' element={<GhostCodW />} />
+          <Route path='/goku-db' element={<GokuDbW />} />
+          <Route path='/goku-phones' element={<GokuPhonesW />} />
+          <Route path="/goku-ui" element={<GokuUiW />} />
+          <Route path="/goku-vs-beerus" element={<GokuVsBeerusW />} />
+          <Route path='/goth-girl' element={<GothGirlW />} />
+          <Route path='/goth-girl-phones' element={<GothGirlPhonesW />} />
+          <Route path='/grim-reaper-phones' element={<GrimReaperPhonesW />} />
+          <Route path="/inosuke" element={<InosukeW />} />
+          <Route path="/jett-valorant" element={<JetValorantW />} />
+          <Route path='/joker-phones' element={<JokerPhonesW />} />
+          <Route path='/kakashi-phones' element={<KakashiPhonesW />} />
+          <Route path='/korra-phones' element={<KorraPhonesW />} />
+          <Route path="/kratos2" element={<Kratos2 />} />
+          <Route path="/ronaldo" element={<RonaldoW />} />
+          <Route path='/messi' element={<MessiW />} />
+          <Route path='/silent-contemplation' element={<SilentContemplationW />} />
+          <Route path='/silver-goku-phones' element={<SilverGokuPhonesW />} />
+          <Route path='/snowfall' element={<SnowfallW />} />
+          <Route path='/spiderman-phones' element={<SpidermanPhonesW />} />
+          <Route path='/supra2' element={<Supra2W />} />
+          <Route path='/wukongb' element={<WukongbW />} />
+          <Route path='/zoro-phones' element={<ZoroPhonesW />} />
+          <Route path='/poku' element={<PokuPhonesW />} />
+          <Route path='/darkpoku' element={<DarkPokuPhonesW />} />
         </Routes>
       </div>
     </div>
