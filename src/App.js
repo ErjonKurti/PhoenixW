@@ -96,6 +96,7 @@ import Kratos2 from './pages/Kratos2W';
 import GothGirlPhonesW from './pages/GothGirlPhonesW';
 import PokuPhonesW from './pages/PokuPhonesW';
 import DarkPokuPhonesW from './pages/DarkPokuPhones';
+import MimoPhonesW from './pages/MimoPhonesW';
 
 function App() {
 
@@ -252,6 +253,7 @@ function App() {
           <Route path='/zoro-phones' element={<ZoroPhonesW />} />
           <Route path='/poku' element={<PokuPhonesW />} />
           <Route path='/darkpoku' element={<DarkPokuPhonesW />} />
+          <Route path='/mimo' element={<MimoPhonesW />} />
         </Routes>
       </div>
     </div>
