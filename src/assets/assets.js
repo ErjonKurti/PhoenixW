@@ -105,9 +105,11 @@ import choso_phones from './choso_phones.mp4'
 import spiderman_phones from './spiderman_phones.mp4'
 import poku from './poku.mp4'
 import darkpoku from './darkpoku.mp4'
+import mimo from './mimo.mp4'
 
 
 export const assets = {
+    mimo,
     darkpoku,
     poku,
     supra2,
